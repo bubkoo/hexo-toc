@@ -1,7 +1,7 @@
 {
   "name": "hexo-toc",
   "version": "0.0.1",
-  "description": "Insert a markdown TOC before post be rendered.",
+  "description": "Insert a markdown TOC(Table Of Content) before posts be rendered. ",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
