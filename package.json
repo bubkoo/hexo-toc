@@ -1,0 +1,29 @@
+{
+  "name": "hexo-toc",
+  "version": "0.0.1",
+  "description": "Insert a markdown TOC before post be rendered.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bubkoo/hexo-toc.git"
+  },
+  "keywords": [
+    "hexo",
+    "filter",
+    "toc"
+  ],
+  "author": "bubkoo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bubkoo/hexo-toc/issues"
+  },
+  "homepage": "https://github.com/bubkoo/hexo-toc",
+  "dependencies": {
+    "markdown-toc": "^0.11.1",
+    "marked-toc": "^0.3.0",
+    "object-assign": "^2.0.0"
+  }
+}
