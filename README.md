@@ -4,7 +4,7 @@ Insert a markdown TOC(Table Of Content) before posts be rendered.
 
 Unlike the native [`toc`](http://hexo.io/docs/helpers.html#toc) helper, this plugin will inject a TOC only when a placeholder(`<!-- toc -->`) found in the raw markdown files. And the TOC will be injected after the placeholder. 
 
-All you need to do is placing a placeholder(`<!-- toc -->`) in you post when and where needed. 
+All you need to do is placing a placeholder(`<!-- toc -->`) in your post when and where needed. 
 
 **Note:** this plugin will not mangle your posts(markdown files), so you can use it bold.
 
