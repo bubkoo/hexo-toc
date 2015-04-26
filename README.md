@@ -16,7 +16,7 @@ npm install hexo-toc --save
 
 ## Options
 
-All the options of [marked-toc](https://github.com/jonschlinkert/marked-toc#options), 
+All the options of [markdown-toc](https://github.com/jonschlinkert/markdown-toc), 
 can be specified as follow in you `_config.yml`:
 
 ```yaml
