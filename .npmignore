@@ -1,8 +1,11 @@
 .idea
+.DS_Store
+.editorconfig
 .npmignore
+.gitignore
 .jshintrc
 .jshintignore
-.DS_Store
 Gruntfile.js
 npm-debug.log
 test
+mock
