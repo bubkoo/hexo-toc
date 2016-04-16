@@ -31,6 +31,22 @@ toc:
 
 - maxDepth: Use headings whose depth is at most maxDepth.
 
+
+## Known issues
+
+### working with hexo-renderer-markdown-it [#8](https://github.com/bubkoo/hexo-toc/issues/8)
+
+we should configure *hexo-renderer-markdown-it* by set `html: true` in your `_config.yml`, otherwise the `<!---toc--->` would not hidden:
+
+```yaml
+# Markdown-it config
+## Docs: https://github.com/celsomiranda/hexo-renderer-markdown-it/wiki
+markdown:
+  render:
+    html: true
+```
+ 
+
 ## Contributing
 
 Pull requests and stars are highly welcome.
