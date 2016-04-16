@@ -1,10 +1,13 @@
 {
   "name": "hexo-toc",
-  "version": "0.0.6",
+  "version": "1.0.0",
   "description": "Insert a markdown TOC(Table Of Content) before posts be rendered. ",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "jshint index.js",
+    "pretest": "npm run lint",
+    "test": "echo ",
+    "prepublish": "npm test"
   },
   "repository": {
     "type": "git",
@@ -29,7 +32,6 @@
     "uslug": "^1.0.3"
   },
   "devDependencies": {
-    "grunt": "^0.4.5",
-    "grunt-contrib-jshint": "^0.11.3"
+    "jshint": "^2.9.1"
   }
 }
