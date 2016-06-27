@@ -26,10 +26,10 @@ can be specified as follow in you `_config.yml`:
 
 ```yaml
 toc:
-  maxDepth: 3
+  maxdepth: 3
 ```
 
-- maxDepth: Use headings whose depth is at most maxDepth.
+- maxdepth: Use headings whose depth is at most maxdepth.
 
 
 ## Known issues
