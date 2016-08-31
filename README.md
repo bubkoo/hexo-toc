@@ -22,16 +22,24 @@ npm install hexo-toc --save
 ## Options
 
 All the options of [markdown-toc](https://github.com/jonschlinkert/markdown-toc),
-and slugify function can be specified as follow in you `_config.yml`:
+slugify function, and heading anchor options can be specified as follow in you `_config.yml`:
 
 ```yaml
 toc:
   maxdepth: 3
   slugify: transliteration
+  anchor:
+    position: after
+    symbol: '#'
+    style: header-anchor
 ```
 
 - `maxdepth`: Use headings whose depth is at most maxdepth.
 - `slugify`: Choose which slugify function you want to use. Currently support [uslug](https://github.com/jeremys/uslug) (*Default*) and [transliteration](https://github.com/andyhu/node-transliteration).
+- `anchor`: Whether should have an anchor for each headings. (*Default is `false`*)
+    - `position`: Where should the anchor be, `before` the title, or `after` the title. (*Default is `after`*);
+    - `symbol`: Which symbol you want the anchor be. (*Default is `#`*);
+    - `style`: The CSS class for the anchor, (*Default is `header-anchor`*);
 
 ## Known issues
 
