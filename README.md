@@ -1,8 +1,9 @@
 # hexo-toc
 
 [![MIT License](https://img.shields.io/badge/license-MIT_License-green.svg?style=flat-square)](https://github.com/bubkoo/hexo-toc/blob/master/LICENSE)
-[![npm:](https://img.shields.io/npm/v/hexo-toc.svg?style=flat-square)](https://www.npmjs.com/packages/hexo-toc)
 
+[![npm:](https://img.shields.io/npm/v/hexo-toc.svg?style=flat-square)](https://www.npmjs.com/packages/hexo-toc)
+[![Package Quality](http://npm.packagequality.com/shield/hexo-toc.svg)](http://packagequality.com/#?package=hexo-toc)
 
 > Insert a markdown TOC(Table Of Content) before posts be rendered.
 
