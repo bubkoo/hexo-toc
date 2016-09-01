@@ -4,11 +4,11 @@
 [![npm:](https://img.shields.io/npm/v/hexo-toc.svg?style=flat-square)](https://www.npmjs.com/packages/hexo-toc)
 
 
-> Insert a markdown TOC(Table Of Content) before posts be rendered. 
+> Insert a markdown TOC(Table Of Content) before posts be rendered.
 
-Unlike the native [`toc`](http://hexo.io/docs/helpers.html#toc) helper, this plugin will inject a TOC only when a placeholder(`<!-- toc -->`) found in the raw markdown files. And the TOC will be injected after the placeholder. 
+Unlike the native [`toc`](http://hexo.io/docs/helpers.html#toc) helper, this plugin will inject a TOC only when a placeholder(`<!-- toc -->`) found in the raw markdown files. And the TOC will be injected after the placeholder.
 
-All you need to do is placing a placeholder(`<!-- toc -->`) in your post when and where needed. 
+All you need to do is placing a placeholder(`<!-- toc -->`) in your post when and where needed.
 
 **Note:** this plugin will not mangle your posts(markdown files), so you can use it bold.
 
@@ -21,22 +21,23 @@ npm install hexo-toc --save
 
 ## Options
 
-All the options of [markdown-toc](https://github.com/jonschlinkert/markdown-toc), 
-can be specified as follow in you `_config.yml`:
+All the options of [markdown-toc](https://github.com/jonschlinkert/markdown-toc),
+and slugify function can be specified as follow in you `_config.yml`:
 
 ```yaml
 toc:
   maxdepth: 3
+  slugify: transliteration
 ```
 
-- maxdepth: Use headings whose depth is at most maxdepth.
-
+- `maxdepth`: Use headings whose depth is at most maxdepth.
+- `slugify`: Choose which slugify function you want to use. Currently support [uslug](https://github.com/jeremys/uslug) (*Default*) and [transliteration](https://github.com/andyhu/node-transliteration).
 
 ## Known issues
 
 ### [#8](https://github.com/bubkoo/hexo-toc/issues/8)
 
-Working with [hexo-renderer-markdown-it](https://github.com/celsomiranda/hexo-renderer-markdown-it). 
+Working with [hexo-renderer-markdown-it](https://github.com/celsomiranda/hexo-renderer-markdown-it).
 
 ```yaml
 # Markdown-it config
