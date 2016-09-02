@@ -28,6 +28,7 @@ slugify function, and heading anchor options can be specified as follow in you `
 ```yaml
 toc:
   maxdepth: 3
+  class: toc
   slugify: transliteration
   anchor:
     position: after
@@ -36,6 +37,7 @@ toc:
 ```
 
 - `maxdepth`: Use headings whose depth is at most maxdepth.
+- `class`: The CSS Class for the toc. (*Default is `false`*)
 - `slugify`: Choose which slugify function you want to use. Currently support [uslug](https://github.com/jeremys/uslug) (*Default*) and [transliteration](https://github.com/andyhu/node-transliteration).
 - `anchor`: Whether should have an anchor for each headings. (*Default is `false`*)
     - `position`: Where should the anchor be, `before` the title, or `after` the title. (*Default is `after`*);
