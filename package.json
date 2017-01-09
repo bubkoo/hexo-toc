@@ -1,6 +1,6 @@
 {
   "name": "hexo-toc",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Insert a markdown TOC(Table Of Content) before posts be rendered. ",
   "main": "index.js",
   "scripts": {
@@ -15,11 +15,14 @@
   },
   "keywords": [
     "hexo",
+    "toc",
     "filter",
-    "markdown",
-    "toc"
+    "markdown"
   ],
-  "author": "bubkoo",
+  "author": {
+    "name": "bubkoo.wy",
+    "email": "bubkoo.wy@gmail.com"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/bubkoo/hexo-toc/issues"
