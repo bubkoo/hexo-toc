@@ -1,6 +1,6 @@
 {
   "name": "hexo-toc",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "Insert a markdown TOC(Table Of Content) before posts be rendered. ",
   "main": "index.js",
   "scripts": {
