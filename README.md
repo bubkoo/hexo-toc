@@ -30,6 +30,7 @@ toc:
   maxdepth: 3
   class: toc
   slugify: transliteration
+  decodeEntities: false
   anchor:
     position: after
     symbol: '#'
@@ -39,6 +40,7 @@ toc:
 - `maxdepth`: Use headings whose depth is at most maxdepth.
 - `class`: The CSS Class for the toc. (*Default is `false`*)
 - `slugify`: Choose which slugify function you want to use. Currently support [uslug](https://github.com/jeremys/uslug) (*Default*) and [transliteration](https://github.com/andyhu/node-transliteration).
+- `decodeEntities`: Select whether to enable decode entities. ( *Default is `false`* and please see [#15](https://github.com/bubkoo/hexo-toc/pull/15)).
 - `anchor`: Whether should have an anchor for each headings. (*Default is `false`*)
     - `position`: Where should the anchor be, `before` the title, or `after` the title. (*Default is `after`*);
     - `symbol`: Which symbol you want the anchor be. (*Default is `#`*);
