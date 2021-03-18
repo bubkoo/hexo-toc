@@ -1,9 +1,9 @@
-# hexo-toc
+# huweihuang-hexo-toc
 
-[![MIT License](https://img.shields.io/badge/license-MIT_License-green.svg?style=flat-square)](https://github.com/bubkoo/hexo-toc/blob/master/LICENSE)
+[![MIT License](https://img.shields.io/badge/license-MIT_License-green.svg?style=flat-square)](https://github.com/huweihuang/hexo-toc/blob/master/LICENSE)
 
-[![npm:](https://img.shields.io/npm/v/hexo-toc.svg?style=flat-square)](https://www.npmjs.com/packages/hexo-toc)
-[![Package Quality](http://npm.packagequality.com/shield/hexo-toc.svg)](http://packagequality.com/#?package=hexo-toc)
+[![npm:](https://img.shields.io/npm/v/huweihuang-hexo-toc.svg?style=flat-square)](https://www.npmjs.com/packages/huweihuang-hexo-toc)
+[![Package Quality](http://npm.packagequality.com/shield/huweihuang-hexo-toc.svg)](http://packagequality.com/#?package=huweihuang-hexo-toc)
 
 > Insert a markdown TOC(Table Of Content) before posts be rendered.
 
@@ -17,7 +17,7 @@ All you need to do is placing a placeholder(`<!-- toc -->`) in your post when an
 ## Install
 
 ```node
-npm install hexo-toc --save
+npm install huweihuang-hexo-toc --save
 ```
 
 ## Options
@@ -48,8 +48,6 @@ toc:
 
 ## Known issues
 
-### [#8](https://github.com/bubkoo/hexo-toc/issues/8)
-
 Working with [hexo-renderer-markdown-it](https://github.com/celsomiranda/hexo-renderer-markdown-it).
 
 ```yaml
@@ -73,4 +71,4 @@ markdown:
 
 Pull requests and stars are highly welcome.
 
-For bugs and feature requests, please [create an issue](https://github.com/bubkoo/hexo-toc/issues/new).
+For bugs and feature requests, please [create an issue](https://github.com/huweihuang/hexo-toc/issues/new).

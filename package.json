@@ -1,5 +1,5 @@
 {
-  "name": "hexo-toc",
+  "name": "huweihuang-hexo-toc",
   "version": "1.1.0",
   "description": "Insert a markdown TOC(Table Of Content) before posts be rendered. ",
   "main": "index.js",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/bubkoo/hexo-toc.git"
+    "url": "https://github.com/huweihuang/hexo-toc.git"
   },
   "keywords": [
     "hexo",
@@ -20,14 +20,14 @@
     "markdown"
   ],
   "author": {
-    "name": "bubkoo.wy",
-    "email": "bubkoo.wy@gmail.com"
+    "name": "huweihuang",
+    "email": "huweihuang@foxmail.com"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/bubkoo/hexo-toc/issues"
+    "url": "https://github.com/huweihuang/hexo-toc/issues"
   },
-  "homepage": "https://github.com/bubkoo/hexo-toc",
+  "homepage": "https://github.com/huweihuang/hexo-toc",
   "dependencies": {
     "cheerio": "^0.19.0",
     "markdown-toc": "^0.12.12",
