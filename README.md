@@ -23,7 +23,7 @@ npm install hexo-toc --save
 ## Options
 
 All the options of [markdown-toc](https://github.com/jonschlinkert/markdown-toc),
-slugify function, and heading anchor options can be specified as follow in you `_config.yml`:
+slugify function, and heading anchor options can be specified as follow in your `_config.yml`:
 
 ```yaml
 toc:
